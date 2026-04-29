@@ -1,0 +1,2 @@
+1. The bug was that the input values were being stored as strings instead of numbers. Because of this, using `+` combined the strings instead of adding them mathematically.
+2. I would fix it by converting the input values to numbers before adding them, such as using `Number(num1) + Number(num2)`.
